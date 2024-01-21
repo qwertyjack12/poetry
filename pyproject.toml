@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-p"
+version = "0.1.0"
+description = ""
+authors = ["qwertyjack12 <zelenin.2016@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
